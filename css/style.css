@@ -1,0 +1,251 @@
+/* Custom Stylesheet */
+
+.page-footer{
+  background-color: #1d2d47;
+}
+html{
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  
+}
+
+#profileImage{
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  font-weight: 300;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.fullscreen{
+  height:50%;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.open{
+  padding-top:20%;
+  font-size: 75px;
+}
+
+.button-collapse {
+  color: #FFFFFF;
+}
+
+.heightChange {
+  min-height: 700px !important;
+  width: 100%;
+}
+
+.heightChange2 {
+  min-height: 850px !important;
+}
+
+
+.parallax-container {
+  min-height: 358px;
+  line-height: 0;
+  
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.project a:link,
+.project a:visited
+{
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size:100%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s;
+}
+
+.project a:hover,
+.project a:active
+{
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#aboutMe{
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Lora', serif;
+}
+#aboutMeTitle{
+  margin-left: 100px;
+ 
+}
+#instagramProject{
+
+  margin-left: 10%;
+}
+
+
+
+/*Grid CSS */
+.flex-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2%;
+}
+
+.flex-row {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+.flex-center-h {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-center-v {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-right {
+align-items: flex-end;
+}
+
+.flex-space-around {
+justify-content: space-around;
+}
+
+.flex-space-between {
+justify-content: space-between;
+}
+.header.about{
+  margin-left: -10px;
+}
+.parallax-container{
+  width:100%;
+}
+
+.tile {
+  transform: scale(1); 
+  position: relative;
+  display: flex;
+	align-items: center; 
+ 
+  max-width: 15em;
+  margin-left: 40%;
+}
+
+.tile-thumbnail {
+  
+  position: relative;
+  height: 0;
+  padding-bottom: 60%;
+  
+   
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 130%;
+  width: 90%;
+  opacity: 0;
+  margin-left: 5%;
+  transition: .5s ease;
+  background-color: #1d2122;
+}
+
+.tile-thumbnail:hover .overlay {
+  opacity: 0.70;
+}
