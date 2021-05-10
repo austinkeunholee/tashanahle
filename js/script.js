@@ -13,11 +13,11 @@ $(document).ready(function(){
 			showCursor:false,
 		})
 		$(".about").typed({
-			strings: ["Practicing my kickflip","Video Editing","Studying Computer Science @Carleton","Running up and down the wall","Listening to alvvays",
-			"Playing the ukelele","Trying to become cryto rich","Hanging out with the homies","Creating a Django application","Thinking of the next million dollar idea",
-			"Trying to do a full send","Watching Videos on Youtube","Drinking Coffee","Making a goof","Playing on my Switch","Waiting for the bus"
+			strings: ["Playing League of Legends","Video Editing","Busy being a Zed main","Walking my cat","Having some ice cream",
+			"Playing the ukelele","Trying to become cryto rich","Hanging out with the homies","Learning to code","Thinking of the next million dollar idea",
+			"Reading Manga","Watching Videos on Youtube","Drinking Coffee","Drawing","Playing on my Switch","Waiting for the bus"
 			,"Making Memes","Listening to Porter Robinson"
-			,"Watching Anime","Running","Travelling","Making a Goof"],
+			,"Watching Anime","Streaming on Twitch","Travelling","Playing soccer"],
 			typeSpeed: 10,
             backDelay: 1250,
             showCursor: false,
